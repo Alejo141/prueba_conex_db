@@ -1,0 +1,3 @@
+Openpyxl
+streamlit
+mysql-connector-python
