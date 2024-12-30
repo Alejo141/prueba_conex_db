@@ -4,10 +4,10 @@ import mysql.connector
 # Función para conectar a la base de datos
 def conectar_a_base_datos():
     return mysql.connector.connect(
-        host="localhost",      # XAMPP utiliza 'localhost'
-        user="root",           # Usuario predeterminado de MySQL en XAMPP
-        password="",           # Contraseña predeterminada está vacía
-        database="dbprueba"  # Nombre de la base de datos creada
+        host="sql111.infinityfree.com",      # XAMPP utiliza 'localhost'
+        user="if0_38007090",           # Usuario predeterminado de MySQL en XAMPP
+        password="Jaag216741",           # Contraseña predeterminada está vacía
+        database="if0_38007090_dbprueba"  # Nombre de la base de datos creada
     )
 
 # Función para obtener datos de la tabla
